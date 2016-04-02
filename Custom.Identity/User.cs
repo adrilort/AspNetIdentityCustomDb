@@ -31,6 +31,8 @@ namespace Custom.Identity
         public string UserName { get; set; }
         public string PasswordHash { get; set; }
 
+        public string Company { get; set; }
+
         public bool LockoutEnabled { get; set; }
         public DateTime? LockoutEndDateUtc { get; set; }
         public bool TwoFactorEnabled { get; set; }
